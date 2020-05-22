@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome icons -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    /> -->
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Guessing Game</title>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-centered">
+            The <span id="color-display">RGB</span> Guessing Game
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-menu">
+        <a href="#" class="navbar-item" id="reset">New Colors</a>
+        <div class="navbar-item"><span id="status"></span></div>
+        <div class="navbar-end">
+          <a href="#" class="navbar-item mode" id="easy">Easy</a>
+          <a href="#" class="navbar-item mode" id="hard">Hard</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Color boxes for game -->
+    <div class="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

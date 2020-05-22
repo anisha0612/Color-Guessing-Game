@@ -1,0 +1,54 @@
+html {
+  background-color: black;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-color: #ad6989;
+}
+
+.hero-body h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 2em;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-menu {
+  margin: 0.5em 10em;
+}
+
+.navbar-menu a {
+  color: #ad6989;
+  font-weight: 600;
+}
+
+.navbar-menu a:focus,
+.navbar-menu a:hover {
+  font-weight: 800;
+  color: #ad6989;
+}
+
+.navbar-item #status {
+  margin-left: 20em;
+}
+
+.square {
+  width: 30%;
+  height: 30%;
+  background-color: #562349;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+  border-radius: 50px;
+  cursor: pointer;
+}
